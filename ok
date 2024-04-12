@@ -1,3 +1,4 @@
 while wait(.00000000000000001)do
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("RollEvent"):FireServer()
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("SendRollEnded"):FireServer()
 end
